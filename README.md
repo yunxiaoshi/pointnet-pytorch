@@ -62,7 +62,6 @@ Certain design choices in the original paper are not implemented here for simpli
 | | accuracy| 
 | :------: | :------: |
 | ModelNet10 | 87.2% |
-| :------: | :------: |
 | ModelNet40 | 85.4% |
 
 | | accuracy | class avg IoU
