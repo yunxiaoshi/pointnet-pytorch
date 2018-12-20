@@ -49,11 +49,11 @@ to start training.
 
 Use ```show_seg.py``` to visualize segmented object parts. Below are some example results.
 
-![](https://ibb.co/S77z4MS "part results")
+![](https://i.ibb.co/Vppscz6/part.png "part results")
 
 For S3DIS, you have to combine scene components along with their labels into one text file and then pass it to ```show_seg_s3dis.py```. Below are some example results.
 
-![](https://ibb.co/Qkp8WdR "s3dis results")
+![](https://i.ibb.co/m0bvn8w/s3dis.png "s3dis results")
 
 ## Results
 
@@ -62,7 +62,6 @@ Certain design choices in the original paper are not implemented here for simpli
 | | accuracy| 
 | :------: | :------: |
 | ModelNet10 | 87.2% |
-| :------: | :------: |
 | ModelNet40 | 85.4% |
 
 | | accuracy | class avg IoU
@@ -76,6 +75,7 @@ Certain design choices in the original paper are not implemented here for simpli
 ## Acknowledgements
 
 [pointnet.pytorch](https://github.com/fxia22/pointnet.pytorch)
+
 [original tensorflow implementation](https://github.com/charlesq34/pointnet)
 
 
