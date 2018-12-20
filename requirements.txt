@@ -1,0 +1,7 @@
+pytorch>=0.4.1
+torchvision
+numpy
+tqdm
+opencv-python
+lera # to monitor training
+
