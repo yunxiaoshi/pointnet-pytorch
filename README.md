@@ -47,7 +47,7 @@ to start training.
 
 ## Visualization
 
-Use ```show_seg.py``` to visualize segmented object parts. Below are some example results.
+First do ```sh build.sh```, then use ```show_seg.py``` to visualize segmented object parts. Below are some example results.
 
 ![](https://i.ibb.co/Vppscz6/part.png "part results")
 
@@ -66,7 +66,7 @@ Certain design choices in the original paper are not implemented here for simpli
 
 | | accuracy | class avg IoU
 | :------: | :------: | :------: |
-| ShapeNet | - | 82.9|
+| ShapeNet | - | 82.9%|
 
 | | accuracy | class avg IoU|
 | :------: | :------: | :------: |
@@ -74,7 +74,7 @@ Certain design choices in the original paper are not implemented here for simpli
 
 ## Acknowledgements
 
-[pointnet.pytorch](https://github.com/fxia22/pointnet.pytorch)
+[pointnet.pytorch](https://github.com/fxia22/pointnet.pytorch) (many thanks)
 
 [original tensorflow implementation](https://github.com/charlesq34/pointnet)
 
