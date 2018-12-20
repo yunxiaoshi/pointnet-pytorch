@@ -51,9 +51,9 @@ First do ```sh build.sh```, then use ```show_seg.py``` to visualize segmented ob
 
 ![](https://i.ibb.co/Vppscz6/part.png "part results")
 
-For S3DIS, you have to combine scene components along with their labels into one text file and then pass it to ```show_seg_s3dis.py```. Below are some example results.
+For S3DIS, you have to combine scene components along with their labels into one text file and then pass it to ```show_seg_s3dis.py```. Below are some example results (removed some clutter classes for better visualization).
 
-![](https://i.ibb.co/m0bvn8w/s3dis.png "s3dis results")
+![](https://i.ibb.co/tYHszTC/s3dis.png "s3dis results")
 
 ## Results
 
@@ -62,6 +62,7 @@ Certain design choices in the original paper are not implemented here for simpli
 | | accuracy| 
 | :------: | :------: |
 | ModelNet10 | 87.2% |
+| :------: | :------: |
 | ModelNet40 | 85.4% |
 
 | | accuracy | class avg IoU
