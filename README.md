@@ -51,7 +51,7 @@ First do ```sh build.sh```, then use ```show_seg.py``` to visualize segmented ob
 
 ![](https://i.ibb.co/Vppscz6/part.png "part results")
 
-For S3DIS, you have to combine scene components along with their labels into one text file and then pass it to ```show_seg_s3dis.py```. Below are some example results (removed some clutter classes for better visualization).
+For S3DIS, you have to combine scene components along with their labels into one text file (```cat``` and ```paste``` seems to be an easy way to do this) and then pass it to ```show_seg_s3dis.py```. Below are some example results (removed some clutter classes for better visualization).
 
 ![](https://i.ibb.co/tYHszTC/s3dis.png "s3dis results")
 
