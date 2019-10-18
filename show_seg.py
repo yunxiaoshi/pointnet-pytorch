@@ -42,7 +42,7 @@ cmap = plt.cm.get_cmap(opt.cmap, 10)
 cmap = np.array([cmap(i) for i in range(10)])[:, :3]
 gt = cmap[seg.numpy()-1, :]
 
-classifier = PointNetDenseCls(k=shapenet_labels[opt.className])
+classifier = PointNetSeg(k=shapenet_labels[opt.className])
 classifier.load_state_dict(torch.load(opt.model))
 classifier.eval()
 
