@@ -67,27 +67,13 @@ For S3DIS, you have to combine scene components along with their labels into one
 Certain design choices in the original paper are not implemented here for simplicity. There is some performance gap on ModelNet classification, for ShapeNet and S3DIS seems to be on par with the original paper.
 
 <center>
-<table>
-<tr><th>ModelNet</th><th><ShapeNet></th><th><S3DIS></th></tr>
-<tr><td>
-| | accuracy | 
-| :------: | :------: |
-| ModelNet10 | 87.2% | 
-| ModelNet40 | 85.4% |
-
-</td><td>
 
 | | accuracy | class avg IoU
 | :------: | :------: | :------: |
+| ModelNet10 | 87.2% | - | 
+| ModelNet40 | 85.4% | - | 
 | ShapeNet | - | 82.9% |
-
-</td><td>
-
-| | accuracy | class avg IoU|
-| :------: | :------: | :------: |
 | S3DIS | 72.1% | 50.6% |
-
-</td></tr> </table>
 
 </center>
 
