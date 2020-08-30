@@ -53,13 +53,13 @@ to start training.
 First do ```sh build.sh```, then use ```show_seg.py``` to visualize segmented object parts. Below are some example results.
 
 <p align="center">
-![](https://i.ibb.co/rx5KB2x/part.png "part results")
+<img src="https://i.ibb.co/rx5KB2x/part.png")
 </p>
 
 For S3DIS, you have to combine scene components along with their labels into one text file (```cat``` and ```paste``` seems to be an easy way to do this) and then pass it to ```show_seg_s3dis.py```. Below are some example results (removed some clutter classes for better visualization).
 
 <p align="center">
-![](https://i.ibb.co/0Gcy2KG/s3dis.png "s3dis results")
+<img src="https://i.ibb.co/0Gcy2KG/s3dis.png")
 </p>
 
 ## Results
@@ -68,18 +68,18 @@ Certain design choices in the original paper are not implemented here for simpli
 
 <center>
 <table>
-<tr><th>ModelNet</th><th><ShapeNet></th><th><S3DIS></th>
+<tr><th>ModelNet</th><th><ShapeNet></th><th><S3DIS></th></tr>
 <tr><td>
-| | accuracy| 
+| | accuracy | 
 | :------: | :------: |
-| ModelNet10 | 87.2% |
+| ModelNet10 | 87.2% | 
 | ModelNet40 | 85.4% |
 
 </td><td>
 
 | | accuracy | class avg IoU
 | :------: | :------: | :------: |
-| ShapeNet | - | 82.9%|
+| ShapeNet | - | 82.9% |
 
 </td><td>
 
