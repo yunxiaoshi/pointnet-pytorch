@@ -7,7 +7,14 @@ This is a PyTorch implementation of [PointNet (CVPR 2017)](https://arxiv.org/abs
 
 ## Installation
 
-Refer to requirements.txt for common dependencies which are fairly easy to install via conda or pip. You may also need to install [PyMesh](https://github.com/PyMesh/PyMesh "PyMesh"). See [here](https://github.com/PyMesh/PyMesh#Build) for instructions to install.
+It is recommended to use [conda](https://docs.conda.io/en/latest/) to manage your env. For example do  
+```
+conda create -n pointnet python=3.6
+conda activate pointnet
+pip install -r requirements.txt
+```
+
+You may also need to install [PyMesh](https://github.com/PyMesh/PyMesh "PyMesh"). See [here](https://github.com/PyMesh/PyMesh#Build) for instructions to install.
 
 ## Usage
 
