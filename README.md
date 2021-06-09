@@ -1,7 +1,7 @@
 ## PointNet-PyTorch
 
-![python 3.6+](https://img.shields.io/badge/python-3.6%2B-blue)
-![MIT License](https://img.shields.io/badge/license-MIT-brightgreen)
+[![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-blue)](https://www.python.org/)
+[![MIT License](https://img.shields.io/badge/MIT-License-brightgreen)](./LICENSE)
 
 This is a PyTorch implementation of [PointNet (CVPR 2017)](https://arxiv.org/abs/1612.00593 "PointNet"), with comprehensive experiments.
 
